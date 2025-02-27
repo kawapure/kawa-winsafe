@@ -41,8 +41,6 @@ impl GuiWindowText for WindowMain {}
 
 impl GuiParent for WindowMain {}
 
-impl GuiParentPopup for WindowMain {}
-
 impl WindowMain {
 	/// Instantiates a new `WindowMain` object, to be created internally with
 	/// [`HWND::CreateWindowEx`](crate::prelude::user_Hwnd::CreateWindowEx).

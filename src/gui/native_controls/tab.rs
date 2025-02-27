@@ -322,8 +322,8 @@ pub struct TabOpts {
 	/// Items to be added as soon as the control is created. The tuple contains
 	/// the title of the tab and the window to be rendered inside of it.
 	///
-	/// Note that, in o order to make the focus rotation work properly, the
-	/// child windows must be created with the
+	/// Note that, in order to make the focus rotation work properly, the child
+	/// windows must be created with the
 	/// [`co::WS_EX::CONTROLPARENT`](crate::co::WS_EX::CONTROLPARENT) extended
 	/// style.
 	///

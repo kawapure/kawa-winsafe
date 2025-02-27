@@ -38,8 +38,6 @@ impl GuiWindowText for WindowModal {}
 
 impl GuiParent for WindowModal {}
 
-impl GuiParentPopup for WindowModal {}
-
 impl WindowModal {
 	/// Instantiates a new `WindowModal` object, to be created internally with
 	/// [`HWND::CreateWindowEx`](crate::prelude::user_Hwnd::CreateWindowEx).
